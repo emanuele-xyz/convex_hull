@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 points = []
 with open("points.txt", "r") as f:
     for line in f:
-        x, y = [int(i) for i in line.split()]
+        x, y = [float(i) for i in line.split()]
         points.append((x, y))
 
 # Separate the points into x and y coordinates
 x_vals, y_vals = zip(*points)
 
 # Create a scatter plot
-plt.scatter(x_vals, y_vals, color='blue', label='Points')
+plt.scatter(x_vals, y_vals, color='black', label='Points')
 
 # Label the axes
 plt.xlabel('X')
