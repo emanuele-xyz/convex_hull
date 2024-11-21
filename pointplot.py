@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 
 points = []
 with open("points.txt", "r") as f:
-    for line in f:
+    lines = f.readlines()[1:]
+    for line in lines:
         x, y = [float(i) for i in line.split()]
         points.append((x, y))
 

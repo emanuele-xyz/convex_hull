@@ -1,2 +1,6 @@
 # test ppoints
 points.txt
+
+# C compiler output
+*.exe
+*.obj
