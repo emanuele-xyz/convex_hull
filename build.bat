@@ -1,3 +1,3 @@
 @echo off
 
-cl /nologo /I . test.c
+cl /nologo /std:clatest /permissive- /Wall /Od /Zi /I . test.c

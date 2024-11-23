@@ -4,3 +4,8 @@ points.txt
 # C compiler output
 *.exe
 *.obj
+*.ilk
+*.pdb
+
+# Visual Studio
+.vs
